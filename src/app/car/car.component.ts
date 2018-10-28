@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 export class CarComponent implements OnInit {
     carName = 'Ford';
     carYear = 2017;
-@Input('carsItem') car :[{name: string, year: number}];
+@Input('carsItem') carItem :{name: string, year: number};
 @Output('putCar') car :[{name: string, year: number}];
    /* @Input car: [{name: string, year: number}];*/
     constructor() {
