@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  width:300px;
+  height: 90vh;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  align-self: flex-start;
+  background-color: gainsboro;
+  flex-direction: column;
+  overflow: auto;
+  opacity: 0.7;
+
+
+}

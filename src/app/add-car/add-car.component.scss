@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid blanchedalmond;
+  min-height: 180px;
+  input {
+    height: 40px;
+
+  }
+
+  button{
+    background-color: orange;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 50px;
+  }
+  h3{
+    margin: 0 auto;
+  }
+}

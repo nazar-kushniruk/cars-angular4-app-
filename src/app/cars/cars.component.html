@@ -1,0 +1,8 @@
+<div class="container">
+     <add-car (putCar)="updateCarList($event)"></add-car>
+    <app-car *ngFor="let car of cars" [carsItem]="car"></app-car>
+
+</div>
+
+
+
